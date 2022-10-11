@@ -1,0 +1,13 @@
+div.main {
+    background: #f6f6f6;
+    display: block;
+    width: 500px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.button-decrease {
+    margin-left: 6px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 1. CityGame Web</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../../../../Resources/assets/styles.css"
+        >
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./index.css"
+        >
+    </head>
+    <body>
+        <div class="main cities">
+            <h3>ГОРОДА</h3>
+
+            <div class="cities__main-block cities__start-block active">
+                <div class="cities__names-container">
+                    <div class="cities__block">
+                        <label
+                            for="name-first"
+                            class="form-label"
+                        >Имя первого игрока</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="name-first"
+                            placeholder="Илон"
+                        >
+                    </div>
+                    <div class="cities__block cities__block--second">
+                        <label
+                            for="name-second"
+                            class="form-label"
+                        >Имя второго игрока</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="name-second"
+                            placeholder="Маск"
+                        >
+                    </div>
+                </div>
+                <button
+                    type="button"
+                    class="cities__button cities__button--start btn btn-success"
+                >
+                    Начать игру!
+                </button>
+            </div>
+
+            <div class="cities__main-block cities__game-block">
+                <label
+                    for="new-city"
+                    class="form-label"
+                >Введите название города</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    id="new-city"
+                    placeholder="Казань"
+                >
+                <button
+                    type="button"
+                    class="cities__button cities__button--add btn btn-primary"
+                >
+                    Добавить
+                </button>
+                <div class="cities__names-container">
+                    <div class="cities__user-name cities__user-name--first active"></div>
+                    <div class="cities__user-name cities__user-name--second"></div>
+                </div>
+                <div class="cities__cities-container ">
+                    <div class="cities__user-cities cities__user-cities--first"></div>
+                    <div class="cities__user-cities cities__user-cities--second"></div>
+                </div>
+            </div>
+
+            <div class="cities__main-block cities__finish-block">
+                <div
+                    class="alert alert-success"
+                    role="alert"
+                >
+                </div>
+                <button
+                    type="button"
+                    class="cities__button cities__button--restart btn btn-warning"
+                >
+                    Начать сначала
+                </button>
+            </div>
+        </div>
+    </body>
+    <script src="../index.js"></script>
+    <script type="text/javascript">
+        setCitiesGame();
+    </script>
+</html>

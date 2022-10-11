@@ -1,0 +1,33 @@
+.traffic__lights-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 40px;
+    background: #2c3e50;
+}
+
+.traffic__lights-container span {
+    width: 100px;
+    height: 100px;
+    background-color: #0f141e;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #888888;
+    display: block;
+    transition: background-color 0.10s;
+}
+
+.red-light {
+    background-color: #ff4a4a !important;
+}
+
+.yellow-light {
+    background-color: yellow !important;
+}
+
+.green-light {
+    background-color: #00b000 !important;
+}

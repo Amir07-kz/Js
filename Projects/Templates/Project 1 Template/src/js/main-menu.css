@@ -1,0 +1,293 @@
+body{
+ background: url("https://img.kub.media/kubmedia/images/1k2a/5bd2c3df8a61040934538785/article5bd2c3e0058683.09621419.jpg");
+}
+
+.img_container{
+ margin-top: 30px;
+}
+
+.btns{
+ display: flex;
+ background: rgba(0, 0, 0, 0.3);
+ height: 50px;
+ font-size: 18px;
+ justify-content: space-around;
+}
+
+.img_btn{
+ position: absolute;
+ top: 70%;
+ left: 85%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ color: #ffffff;
+ font-size: 15px;
+ padding: 12px 24px;
+ cursor: pointer;
+ border-radius: 5px;
+ overflow: hidden;  
+ width: 200px;
+ border-color: #ffffff;
+ background-color: Transparent;
+ background-repeat:no-repeat;
+ outline: auto;
+}*
+
+button{
+  outline: none;
+  border: 0px;
+  box-sizing: none; 
+  background-color: transparent; 
+}
+
+.img_container p{
+ position: relative;
+ margin-top: -12px;
+ left: 50px;
+ font-size: 15px;
+ color: #ffffff;
+}
+
+.word_container{
+ margin-top: 200px;
+ left: 50px;
+ color: #ffffff;
+ font-size: 22px;
+}
+
+.information{
+ color: white;
+ background: rgba(0, 0, 0, 0.4);
+}
+
+.social_link{
+ margin-top: 150px;
+ background-color: black;
+ color: rgb(193, 191, 191);  
+ left: 100xp;
+}
+
+.vk{
+ display: inline-block;
+ text-decoration: none;
+ color: rgb(0, 136, 255);
+ margin-left: -50px;
+ cursor: pointer; 
+}
+
+.inst{
+ display: inline-block;
+ color:rgba(177, 66, 197, 0.816);
+ margin-left: 100px;
+ cursor: pointer;
+}
+
+.tg{
+ display: inline-block;
+ color:#0de7ff;
+ margin-left: 100px;
+ cursor: pointer;
+}
+
+.modal-container{
+ pointer-events: none; 
+ opacity: 0;
+ position: fixed;
+ z-index: -1;
+ left: 0;
+ top: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 100vh;
+ padding: 6%;
+ background-color: rgba(0, 0, 0, 0);
+ transition: opacity .3s, background-color .5s;
+}
+
+.is-open{
+ opacity: 1;
+ pointer-events: all;
+ z-index: 1;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content{ 
+ overflow: hidden;
+ overflow-y: scroll;
+ width: 100%; 
+ height: 100%;
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 3px;
+}
+
+.close {
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 30px;
+ height: 30px;
+ font-size: 30px;
+ margin-top: 38px;
+ color: rgb(255, 255, 255);
+}
+
+.next-on-two{
+ position: fixed;
+ right: 0;
+ top: 0;
+ width: 30px;
+ height: 30px;
+ font-size: 30px;
+ margin-top: 80px;
+ color: rgb(255, 255, 255);
+}
+
+.modal-container-2{
+ pointer-events: none; 
+ opacity: 0;
+ position: fixed;
+ z-index: -1;
+ left: 0;
+ top: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100vw;
+ height: 100vh;
+ padding: 10%;
+ background-color: rgba(0, 0, 0, 0);
+ transition: opacity .3s, background-color .5s;
+}
+
+.is-open-2{
+ opacity: 1;
+ pointer-events: all;
+ z-index: 1;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-2{
+ overflow: hidden;
+ overflow-y: scroll;
+ width: 100%; 
+ height: 100%;
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 3px;
+}
+
+.close-2{
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.back-on-one{
+  color: black;
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.next-on-three{
+  color: black;
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.modal-container-3{
+ pointer-events: none; 
+ opacity: 0;
+ position: fixed;
+ z-index: -1;
+ left: 0;
+ top: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100vw; 
+ height: 100vh;
+ padding: 10%;
+ background-color: rgba(0, 0, 0, 0);
+ transition: opacity .3s, background-color .5s;
+}
+
+.is-open-3{
+ opacity: 1;
+ pointer-events: all;
+ z-index: 1;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-3{
+ overflow: hidden;
+ overflow-y: scroll;
+ width: 100%; 
+ height: 100%;
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 3px;
+}
+
+.close-3{
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.next-3{
+  color: black;
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.back-on-one{
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.back-on-two{
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.modal-1-word{
+  margin-left: 32%;
+  max-width: 700px;
+  margin-top: -44%;
+  padding-right: 30px;
+  margin-bottom: 20%;
+  font-size: 12px;
+}
+
+.modal-1-img{
+  font-size: 10px;  
+}
+
+.btns button{
+ margin: 20px;
+ color:white;
+ font-weight: bold;
+}
+
+.main-content{
+  margin-bottom: -20%;
+}

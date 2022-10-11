@@ -1,0 +1,17 @@
+[33m9ff73c9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/suchkov[m[33m, [m[1;31morigin/Likhacheva[m[33m)[m HEAD@{0}: checkout: moving from Amirchan to main
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{1}: checkout: moving from main to Amirchan
+[33m9ff73c9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/suchkov[m[33m, [m[1;31morigin/Likhacheva[m[33m)[m HEAD@{2}: checkout: moving from Amirchan to main
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{3}: checkout: moving from Amirchan to Amirchan
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{4}: checkout: moving from Amirchan to Amirchan
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{5}: checkout: moving from Amirchan to Amirchan
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{6}: checkout: moving from 0696a1aa763c16176f371154b79a6b0d1fd5271b to Amirchan
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{7}: checkout: moving from master to origin/Amirchan
+[33me9c44ac[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{8}: checkout: moving from temp to master
+[33me9c44ac[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{9}: checkout: moving from e9c44acf3a93d3357ee7548452c4453952f1cc3b to temp
+[33me9c44ac[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{10}: commit: хз почему ошибка в 1 таске
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{11}: checkout: moving from Amirchan to origin/Amirchan
+[33m0696a1a[m[33m ([m[1;31morigin/Amirchan[m[33m, [m[1;32mAmirchan[m[33m)[m HEAD@{12}: commit: сделал hw и task
+[33mc547c94[m HEAD@{13}: merge origin/Amirkhan.D: Merge made by the 'recursive' strategy.
+[33m822a261[m HEAD@{14}: commit: первый таск
+[33m9ff73c9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/suchkov[m[33m, [m[1;31morigin/Likhacheva[m[33m)[m HEAD@{15}: checkout: moving from main to Amirchan
+[33m9ff73c9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/suchkov[m[33m, [m[1;31morigin/Likhacheva[m[33m)[m HEAD@{16}: clone: from https://github.com/ITIS42Laboratory/JS-Course-Public.git

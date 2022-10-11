@@ -1,0 +1,71 @@
+div.main {
+    background: #f6f6f6;
+    display: block;
+    width: 700px;
+}
+
+div.main h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cities__names-container,
+.cities__cities-container {
+    display: flex;
+}
+
+.cities__block {
+    width: 50%;
+}
+
+.cities__block--second {
+    margin-left: 20px;
+}
+
+.cities__button {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.cities__user-name {
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.cities__user-name.active {
+    border: 1px solid #05b000;
+    background: #c7ffcd;
+    border-radius: 10px;
+}
+
+.cities__user-cities {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cities__user-cities span {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 6px;
+    height: 24px;
+}
+
+.cities__user-cities--second {
+    margin-top: 16px;
+}
+
+.cities__finish-block .alert {
+    margin-bottom: 0;
+}
+
+.cities > div:not(.active) {
+    display: none;
+}
